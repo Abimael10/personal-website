@@ -191,10 +191,34 @@ body {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 995px) {
+
+    .showcase {
+        height: 40vh;
+    }
+
+    .showcase-main_text {
+        margin-top: 3rem;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .showcase-secondary_text {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .mafia-man {
+        display: none;
+    }
 
     .title {
         margin-bottom: 2rem;
+    }
+
+    .photo {
+        width: 250px;
+        height: 250px;
     }
 
     .about-me_preview {
@@ -203,5 +227,29 @@ body {
 
     .about-me_option {
         text-align: justify;
+    }
+
+    .footer .container {
+        max-width: 100%;
+    }
+
+    .social-media {
+        transform: translateY(0);
+        width: 100%;
+        border-radius: 0;
+        padding: 3.5rem 0;
+    }
+
+    .social-media .showcase-main_text {
+        font-size: 30px;
+    }
+
+    .fab {
+        font-size: 30px;
+    }
+
+    .final {
+        padding-top: 3rem;
+        font-size: 22px;
     }
 }
